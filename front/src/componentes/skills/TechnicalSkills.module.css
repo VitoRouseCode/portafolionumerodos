@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    /* grid-auto-rows: minmax(100px, auto); */
+    grid-gap: 10px;
+    /*  border:1px black solid; */ 
+    width: 100%;
+    height: 300px;
+    margin-top: 0;
+    
+    
+  }
+.descripcion{
+    border:  rgba(215, 211, 211, 0.824); 
+    height: 200px;
+    width: 80%;
+    margin-top: 150px;
+
+    
+  
+}
+
+
+
+.caja{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    /* border:solid 1px black; */ 
+    justify-content: flex-start;
+    margin-top: 10px;
+    
+}
+.hoja{
+    display: flex;
+    justify-content: center;
+    /* border:red solid 2px; */
+    flex-wrap: wrap;
+    height: 100vh;
+    background-image: url('../../imagenes/elegan.jpg');
+    background-size:auto;
+    background-repeat: no-repeat;
+    
+    
+    
+    
+}
+.cuadro1{
+    /* border:solid black 1px; */
+    background: url('../../imagenes/nodelogo.png') ;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    justify-content: center;
+    display: flex;
+    transition: transform 1.0s ease;
+    cursor: pointer;
+}
+.cuadro1:hover{
+    transform: rotateY(360deg);
+
+}
+.cuadrotexto{
+    background-color: rgba(0, 0, 0, 0.438);
+    font-size: 20px;
+    color: white;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+
+.cuadro2{
+    /* border:solid black 1px; */
+    background: url('../../imagenes/logos/javascriptlogo.png') ;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    justify-content: center;
+    display: flex;
+    transition: transform 1.0s ease;
+    cursor: pointer;
+}
+.cuadro2:hover{
+    transform: rotateY(360deg);
+}
+
+.cuadro3{
+    /* border:solid black 1px; */
+    background: url('../../imagenes/logos/reactlogo.png') ;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    justify-content: center;
+    display: flex;
+    transition: transform 1.0s ease;
+    cursor: pointer;
+}
+.cuadro3:hover{
+    transform: rotateY(360deg);
+}
+.cuadroPostgres{
+    /* border:solid black 1px; */
+    background: url('../../imagenes/logos/postgrelogo.png') ;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    justify-content: center;
+    display: flex;
+    transition: transform 1.0s ease;
+    cursor: pointer;
+}
+.cuadroPostgres:hover{
+    transform: rotateY(360deg);
+}
+
+.cuadroExpress{
+    /* border:solid black 1px; */
+    background: url('../../imagenes/logos/ExpressJS-logo.png') ;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    justify-content: center;
+    display: flex;
+    transition: transform 1.0s ease;
+    background-position-y: center;
+    cursor: pointer;
+}
+.cuadroExpress:hover{
+    transform: rotateY(360deg);
+}
+
+.cuadroHtml{
+    /* border:solid black 1px; */
+    background: url('../../imagenes/logos/icone-html-orange.png') ;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    justify-content: center;
+    display: flex;
+    transition: transform 1.0s ease;
+    background-position-y: center;
+    cursor: pointer;
+}
+.cuadroHtml:hover{
+    transform: rotateY(360deg);
+}
+.cuadroCss{
+    /* border:solid black 1px; */
+    background: url('../../imagenes/logos/logo\ css.png') ;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    justify-content: center;
+    display: flex;
+    transition: transform 1.0s ease;
+    background-position-y: center;
+    cursor: pointer;
+}
+.cuadroCss:hover{
+    transform: rotateY(360deg);
+}
+
+.cuadroJava{
+    /* border:solid black 1px; */
+    background: url('../../imagenes/logos/logojava.png') ;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    justify-content: center;
+    display: flex;
+    transition: transform 1.0s ease;
+    background-position-y: center;
+    cursor: pointer;
+}
+.cuadroJava:hover{
+    transform: rotateY(360deg);
+}
+
+.cuadroRedux{
+    /* border:solid black 1px; */
+    background: url('../../imagenes/logos/Redux.png') ;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    justify-content: center;
+    display: flex;
+    transition: transform 1.0s ease;
+    cursor: pointer;
+}
+.cuadroRedux:hover{
+    transform: rotateY(360deg);
+}
+
+.descripcion{
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.clickIcon{
+    border-right:5px solid rgb(131, 129, 129);
+    animation: typing 6s steps(40) 1s 1 normal both, blink 1s steps(1) infinite;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: 'VT323', monospace;
+    font-size: 25px;
+
+}
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 38%;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+

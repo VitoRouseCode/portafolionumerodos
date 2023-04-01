@@ -1,0 +1,67 @@
+.hoja{
+    background:url('../../imagenes/elegan.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: max-content;
+    /* border:2px rgb(0, 255, 34) solid; borde de toda la hoja */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hoja2{
+    /* border: 2px red solid; borde de la seccion */
+    height: 91vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadro{
+    margin-top: 100px;
+    /* border:1px solid red; */ 
+    width: 1200px;
+    height: 550px;
+    display: flex;
+    margin-left: 80px;
+    
+}
+.cuadro1{
+    display: flex;
+    width: 250px;
+    height: 100%;
+    flex-direction: column;
+}
+.cargando{
+    /* border:1px solid red;  */
+    width: 400px;
+    height: 300px;
+    background: url('../../imagenes/cargando.gif');
+   background-size: cover;
+   background-position-y: center;
+   
+}
+.resumen{
+    width: calc(76%);
+    /* border: solid 1px rgb(40, 137, 46); */
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+
+}
+.flecha{
+    width: 70px;
+    height: 70px;
+    transform: rotate(90deg);
+    cursor: pointer;
+    margin-left: 60px;
+}
+
+.flecha2{
+    width: 70px;
+    height: 70px;
+    transform: rotate(-90deg);
+    cursor: pointer;
+    margin-left: 60px;
+}

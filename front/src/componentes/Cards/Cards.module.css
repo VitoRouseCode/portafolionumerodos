@@ -1,0 +1,67 @@
+.card{
+    /* border:solid 1px black; */
+    width:33%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.78);
+    border-radius: 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.imagen1{
+    width: 100%;
+    height: 50%;
+    /* border:solid red 1px; */
+    /* background: url('../../imagenes/Trabajoequipo.jpg'); */
+    background-size: cover;
+   border-top-right-radius: 20px;
+   border-top-left-radius: 20px;
+   /*  background-position-x: -40px; */   
+}
+
+.card:hover{
+    
+    box-shadow: 0 0 15px rgba(248, 115, 115, 0.5);
+
+}
+
+.titulo{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ /* border: solid 1px red; */
+}
+.texto{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    /* border:solid 1px red; */
+    height: fit-content;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.imagen2{
+    width: 100%;
+    height: 50%;
+    /* border:solid red 1px; */
+    background: url('../../imagenes/rompe.jpg');
+    background-size: cover;
+   border-top-right-radius: 20px;
+   border-top-left-radius: 20px;
+    background-position-x: -40px;
+    
+    
+}
+.imagen3{
+    width: 100%;
+    height: 50%;
+    /* border:solid red 1px; */
+    background: url('../../imagenes/escala.png');
+    background-size: cover;
+   border-top-right-radius: 20px;
+   border-top-left-radius: 20px;
+    background-position-x: -40px;
+    
+    
+}

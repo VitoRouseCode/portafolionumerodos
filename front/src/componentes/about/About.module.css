@@ -1,0 +1,127 @@
+.box{
+    /* background: url('../../imagenes/elegan.jpg'); */
+    
+}
+
+.cajaAbout{
+    border:solid black 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin:auto;
+    width: 70%;
+    height:fit-content;
+    margin-top:0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: none;
+    
+    
+}
+.cajaAboutdos{
+    border:solid black 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin:auto;
+    width: 100%;
+    height:fit-content;
+    
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: none;
+}
+.titulo{
+    font-size: 40px;
+    font-weight: bold;
+    border:1px black dashed;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-right: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+    margin-left: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+
+}
+.cuerpo{
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px;
+    width: 80%;
+}
+
+.encabezado{
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    width: 80%;
+    margin-top: 20px;
+}
+.foto{
+    background: url('../../imagenes/plumaunno.png');
+    width: 400px;
+    min-height: 400px;
+    background-size: cover;
+    
+}
+.botonOn{
+    background: none;
+    border:solid 2px green;
+    color:green;
+    width: 80px;
+    height: 30px;
+    justify-items: center;
+    margin-left:auto;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.botonOff{
+    background: none;
+    border:solid 2px red;
+    color:red;
+    width: 80px;
+    height: 30px;
+    justify-items: center;
+    margin-left:auto;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.botonOndos{
+    background: none;
+    border:solid 2px green;
+    color:green;
+    width: 120px;
+    height: 30px;
+    justify-items: center;
+    margin-left:auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.botonOffdos{
+    background: none;
+    border:solid 2px red;
+    color:red;
+    width: 120px;
+    height: 30px;
+    justify-items: center;
+    margin-left:auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.botonOndos:disabled{
+    background-color: rgba(119, 136, 153, 0.104);
+    border:2px solid rgba(119, 136, 153, 0.104);
+    color: rgba(119, 136, 153, 0.204);
+}
